@@ -1,0 +1,18 @@
+.mainWrapper{
+  width: 100%;
+}
+
+
+
+.radius{
+  width:0;
+  height:0;
+  border-radius:100px;
+  border-width:100px;
+  border-style:solid;
+  border-color:red transparent transparent transparent;
+  line-height:99em;
+  overflow:hidden;
+  cursor:pointer;
+  margin: 30px auto;
+}

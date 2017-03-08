@@ -1,0 +1,52 @@
+.mainWrapper{
+  width: 100%;
+}
+.slickWrapper{
+  width: 240px;
+  height: 200px;
+  position: relative;
+  display: block;
+  margin: 12px auto;
+  overflow: hidden;
+}
+
+.imgList{
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+  float: left;
+  & span{
+    font-size: 24px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &:nth-child(1){
+    background-color: #ff8080;
+  }
+
+  &:nth-child(2){
+    background-color: #84ff78;
+  }
+
+  &:nth-child(3){
+    background-color: #ffe6c6;
+  }
+
+  &:nth-child(4){
+    background-color: #ffbe1e;
+  }
+
+  &:nth-child(5){
+    background-color: #77a4ff;
+  }
+
+  &:nth-child(6){
+    background-color: #57ffe2;
+  }
+
+  &:nth-child(7){
+    background-color: #cccccc;
+  }
+}
